@@ -1,0 +1,42 @@
+.gameSeeker-container {
+  margin: 5vh 0;
+  display: flex;
+  justify-content: center;
+}
+
+.seekButton {
+  position: relative;
+  width: 0;
+  height: 0;
+  left: -50%;
+  visibility: hidden;
+}
+
+.search-icon {
+  position: relative;
+  right: 0;
+  bottom: 1.2em;
+  left: 0.5em;
+  background-image: url("../../assets/search.svg");
+  background-repeat: no-repeat;
+  width: 1em;
+  height: 1em;
+}
+
+#seekerInput {
+  padding: 0.5em 0 0.5em 2em;
+  height: 1em;
+  width: 60vw;
+  border-radius: 25px;
+  border: 1px solid #fff;
+  background: none;
+  color: #fff;
+  font-size: 0.8em;
+  outline: none;
+}
+
+#seekerInput:focus {
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #919191ae;
+}

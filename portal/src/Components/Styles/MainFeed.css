@@ -1,0 +1,30 @@
+ul {
+  flex-wrap: wrap;
+  align-items: center;
+}
+.game-container {
+  border: 3px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 33vw;
+  max-height: 50vh;
+  padding: 3em 3em;
+}
+p,
+li {
+  color: wheat;
+  overflow: hidden;
+}
+h3,
+img {
+  cursor: pointer;
+}
+img {
+  width: 33vw;
+  height: 23em;
+}
+section {
+  display: flex;
+  flex-wrap: wrap;
+}

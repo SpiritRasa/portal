@@ -5,9 +5,7 @@ export default function Header() {
     <header>
       <a href="#">
         <div className="logo-container">
-          <div className="svg-container">
-            <div className="logo-svg"></div>
-          </div>
+          <div className="logo"></div>
           <h2 className="logo-header">Portal</h2>
         </div>
       </a>

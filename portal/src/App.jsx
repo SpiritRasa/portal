@@ -1,11 +1,15 @@
 import { useState } from "react";
-import "./App.css";
+import "./Index.css";
 import Header from "./Components/Blocks/Header";
+import Seeker from "./Components/Blocks/Seeker";
+import MainFeed from "./Components/Blocks/MainFeed";
 
 function App() {
   return (
     <>
       <Header />
+      <Seeker />
+      <MainFeed />
     </>
   );
 }
