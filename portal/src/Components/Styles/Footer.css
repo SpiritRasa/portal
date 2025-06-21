@@ -6,6 +6,9 @@ footer {
   align-items: center;
   justify-content: center;
 }
+li {
+  cursor: pointer;
+}
 p {
   color: white;
   font-size: 0.7em;
